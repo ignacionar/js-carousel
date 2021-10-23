@@ -134,8 +134,3 @@ function move2(params) {
         }
     }
 }
-
-// setTimeout((params2) => {
-//     params2 = "back"
-//     move(params2)
-// }, 9000);
