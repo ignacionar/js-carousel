@@ -52,6 +52,7 @@ function move(params) {
 }
     if (params === "back") {
         number--
+        anim++
         if (number == 2) {
             theImg.setAttribute("src", tshirts[2].src)
             myH5.style.visibility = "hidden"

@@ -3,25 +3,28 @@ body, html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-}
-
-
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: antiquewhite;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
 .card-container {
+    margin-top: 1%;
     width: auto;
     height: auto;
     background-color: lightsteelblue;
     padding: 30px;
     border-radius: 10px;
-    color: black
+    color: black;
+
 }
 
 .card-container h3 {
@@ -35,17 +38,22 @@ body, html {
     text-align: center;
     visibility: hidden;
     margin: 0;
+    padding-bottom: 25px;
 }
 
 .card {
     border-radius: 30px;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 300px;
+    display: flex;    
 }
 
 .card img {
+    height: 300px;
+    width: auto;
     object-fit: cover;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .container-buttons {
